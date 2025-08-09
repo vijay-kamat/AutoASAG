@@ -4,7 +4,7 @@ langchain-community==0.3.27
 chromadb==1.0.15
 python-dotenv==1.0.0
 streamlit==1.24.0
-
+langchain_google_genai==2.1.8
 # scraping
 beautifulsoup4==4.12.2
 requests==2.31.0

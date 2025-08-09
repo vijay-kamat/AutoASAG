@@ -5,7 +5,7 @@ load_dotenv()
 
 # ==== API KEYS ====
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-LANGCHAIN_API_KEY = os.geten("LANGCHAIN_API_KEY")
+LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
 
 # ==== PATHS ====
 
