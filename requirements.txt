@@ -1,0 +1,25 @@
+# Core
+langchain==0.3.26
+langchain-community==0.3.27
+chromadb==1.0.15
+python-dotenv==1.0.0
+streamlit==1.24.0
+
+# scraping
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# transformers & scoring
+transformers==4.55.0
+torch==2.8.0
+bert-score==0.3.13
+
+# ML training & utils
+scikit-learn>=1.3.2
+xgboost==1.7.5
+joblib==1.3.2
+pandas==2.2.1
+numpy>=1.26.0
+
+# optional: sentence-transformers
+sentence-transformers==2.2.2
