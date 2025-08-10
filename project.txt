@@ -1,0 +1,27 @@
+project/
+├─ .venv/
+├─ .env
+├─ requirements.txt
+├─ README.md
+├─ streamlit_app.py            # entrypoint for UI
+├─ app/
+│  ├─ __init__.py
+│  ├─ config.py                # env loader, constants
+│  ├─ scrapers/
+│  │  └─ web_scraper.py        # bs4 scraping functions (no embeddings)
+│  ├─ ingestion/
+│  │  └─ embedder.py           # create embeddings, save to Chroma
+│  ├─ retrieval/
+│  │  └─ rag_runner.py         # uses LangChain to run RAG
+│  ├─ grading/
+│  │  ├─ bert_nli_score.py     # bert_score + roberta-large-mnli scoring
+│  │  └─ features.py           # compute feature vector per student answer
+│  ├─ trainer/
+│  │  └─ train_model.py        # trains XGBoost / scikit-learn model
+│  ├─ models/                  # saved joblib / xgboost models
+│  └─ utils.py
+├─ data/
+│  ├─ mohler/                  # dataset (downloaded, cleaned)
+│  └─ embeddings/              # optional local dumps
+└─ notebooks/
+   └─ exploration.ipynb

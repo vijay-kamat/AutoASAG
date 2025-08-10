@@ -4,3 +4,5 @@ chroma_db/
 __pycache__/
 *.py[cod]
 app.py
+app1.py
+.data
