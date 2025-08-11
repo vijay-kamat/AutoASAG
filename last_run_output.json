@@ -1,0 +1,18 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "question": "What is artificial intelligence?",
+  "num_chunks": 114,
+  "rag_answer": "Based on the provided text, artificial intelligence (AI) is the capability of computational systems to perform tasks that are typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.\n\nIt is also described as a field of research in computer science that develops and studies methods and software that allow machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\n\nSome high-profile applications of AI include: Advanced web search engines (e.g., Google Search) Recommendation systems (used by YouTube, Amazon, and Netflix) Virtual assistants (e.g., Google Assistant, Siri, and Alexa) Autonomous vehicles (e.g., Waymo) Generative and creative tools (e.g., language models and AI art) Superhuman play and analysis in strategy games",
+  "student_answer": "artificial intelligence (AI) is the capability of computational systems to perform tasks that are typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.\\n\\nIt is also described as a field ational systems to perform tasks that are typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.\\n\\nIt is also described as a field of research in computer science that develops methods and software enabling machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\\n\\nExamples of high-profile AI applications include:\\n*   Advanced web search engines (e.g., Google Search)\\n*   Recommendation systems (used by YouTube, Amazon, and Netflix)\\n*   Viring defined goals.\\n\\nExamples of high-profile AI applications include:\\n*   Advanced web search engines (e.g., Google Search)\\n*   Recommendation systems (used by YouTube, Amazon, and Netflix)\\n*   Virtual assistants (e.g., Siri and Alexa)\\n*   Autonomous vehicles (e.g., Waymo)\\n*   Generative and creative tools (e.g., language models and AI art)\" --collection test_collection_2",
+  "grading": {
+    "features": {
+      "bert_precision": 0.3007467985153198,
+      "bert_recall": 0.5517555475234985,
+      "bert_f1": 0.42425522208213806,
+      "nli_contradiction": 0.00987246260046959,
+      "nli_neutral": 0.10558252036571503,
+      "nli_entailment": 0.8845449686050415
+    },
+    "predicted_grade": 5
+  }
+}
